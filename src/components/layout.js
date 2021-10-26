@@ -23,11 +23,14 @@ const Container = styled.div`
   @media only screen and (min-width: 600px) {
     /* For tablets: */
     width: 80%;
+    padding: 0;
   }
 
   @media only screen and (min-width: 768px) {
     /* For desktop: */
     width: 85%;
+    max-width: 900px;
+    padding: 0;
   }
 `;
 
