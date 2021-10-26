@@ -4,17 +4,37 @@ import styled from "styled-components";
 const Header = styled.h1`
   font-family: "Cormorant Garamond", serif;
   font-size: 2.3rem;
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    font-size: 4rem;
+  }
+
+  @media only screen and (min-width: 770px) {
+    /* For desktop: */
+    font-size: 5rem;
+  }
 `;
 
 const Container = styled.div`
   margin: 5vh auto;
-  padding: 0 5vw;
+  padding: 0 10vw;
+
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    width: 80%;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    width: 85%;
+  }
 `;
 
 const Layout = ({ children }) => {
   return (
     <Container>
-      <Header>NON-FUNGIBLE TOKENS OF LOVE</Header>
+      <Header>Non-Fungible Tokens Of Love</Header>
       <main>{children}</main>
     </Container>
   );

@@ -13,21 +13,21 @@ const FAQ = () => {
         .
         <br />
         <br />
-        Next, you want to transfer some Ethereum into your MetaMask wallet so
-        you can pay for your transaction. For most crypto-beginners, the best
-        way to do this would be to open a{" "}
+        Next, you want to transfer some Ethereum (ETH) into your MetaMask wallet
+        to pay for your transaction. For most crypto-beginners, the best way to
+        do this would be to open a{" "}
         <a href="https://www.coinbase.com/" target="_blank">
           Coinbase
         </a>{" "}
-        account, buy some Ethereum using your regular bank account or debit
-        card, and then send your Ethereum to your MetaMask wallet (here's a{" "}
+        account, buy some ETH with funds from your regular bank account, and
+        then send your Ethereum to your MetaMask wallet (here's a{" "}
         <a
           href="https://help.coinbase.com/en/wallet/sending-and-receiving/how-do-i-send-and-receive-crypto-through-wallet"
           target="_blank"
         >
           link
         </a>{" "}
-        to Coinbase's explainer on how to do that).
+        to Coinbase's explainer on how to sends funds to an external wallet).
         <br />
         <br />
         Once you've confirmed your funds have reached your wallet, all you have
@@ -40,8 +40,7 @@ const FAQ = () => {
         >
           gas fee
         </a>{" "}
-        before signing the transaction to make sure you're not spending too much
-        on gas!
+        before signing the transaction.
       </p>
       <h3>How do I know my money isn't going into your pocket?</h3>
       <p>
