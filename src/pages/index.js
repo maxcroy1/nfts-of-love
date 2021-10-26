@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
 
     p {
         font-family: 'Martel', serif;
-        font-size: .75rem;
+        font-size: .8rem;
     }
 
     a {

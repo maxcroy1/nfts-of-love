@@ -47,16 +47,23 @@ const FAQ = () => {
       <p>
         Normally, you wouldn't! But thanks to the Ethereum Blockchain, you can
         keep an eye on our wallet to make sure money only comes in for mints,
-        and leaves once our donation. Here's a link to Etherscan so you can keep
-        an eye on our wallet's address, and we'll be sure to update our
-        community over Discord with proof of the donation.
+        and leaves once for our donation. Here's a link to{" "}
+        <a
+          href="https://etherscan.io/address/0x564252A235c9B04B4ac2Ab41C7a588a0264863d5"
+          target="_blank"
+        >
+          Etherscan
+        </a>{" "}
+        so you can keep an eye on our wallet's address, and we'll be sure to
+        update our community over Discord with proof of the donation.
       </p>
       <h3>Who are you guys?</h3>
       <p>
-        Thanks for asking! Max is a Software Engineer, Val works as an Analyst
-        for a world-class Auctioneer, and we both live in New York City. As Web3
-        has become more prominent, it's become a larger part of our professional
-        lives. We couldn't be more excited for the decentralized future!
+        Thanks for asking! Max is a Software Engineer and Val is an Analyst for
+        an auction house. Both of us live in New York City. As Web3 has become
+        more prominent, it has impacted both our professional lives and our
+        relationship. We are excited to continue to explore technology and art
+        in the metaverse with you.
       </p>
     </>
   );
