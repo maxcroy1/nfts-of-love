@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const FAQ = () => {
+const Faq = () => {
   return (
     <>
       <h2>FAQ</h2>
@@ -68,4 +68,4 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default Faq;

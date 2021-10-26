@@ -1,7 +1,7 @@
 import * as React from "react";
 import { createGlobalStyle } from "styled-components";
 
-import { Seo, Layout, About, Minting, FAQ } from "../components";
+import { Seo, Layout, Timer, About, Minting, Faq } from "../components";
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -51,9 +51,10 @@ const IndexPage = () => {
       <GlobalStyle />
       <Seo />
       <Layout>
+        <Timer />
         <About />
         <Minting />
-        <FAQ />
+        <Faq />
       </Layout>
     </>
   );
