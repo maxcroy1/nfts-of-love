@@ -1,17 +1,22 @@
 import * as React from "react";
-import styled from "styled-components"
+import styled from "styled-components";
 
 const Header = styled.h1`
-    color: white;
-`
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.3rem;
+`;
 
-const Layout = ({ pageTitle, children }) => {
+const Container = styled.div`
+  margin: 5vh auto;
+  padding: 0 5vw;
+`;
+
+const Layout = ({ children }) => {
   return (
-    <>
-      <title>{pageTitle}</title>
-      <Header>Non-Fungible Tokens of Love</Header>
+    <Container>
+      <Header>NON-FUNGIBLE TOKENS OF LOVE</Header>
       <main>{children}</main>
-    </>
+    </Container>
   );
 };
 
