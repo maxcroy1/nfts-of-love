@@ -20,7 +20,7 @@ const FAQ = () => {
           Coinbase
         </a>{" "}
         account, buy some ETH with funds from your regular bank account, and
-        then send your Ethereum to your MetaMask wallet (here's a{" "}
+        then send your ETH to your MetaMask wallet (here's a{" "}
         <a
           href="https://help.coinbase.com/en/wallet/sending-and-receiving/how-do-i-send-and-receive-crypto-through-wallet"
           target="_blank"
