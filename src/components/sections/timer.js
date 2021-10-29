@@ -63,8 +63,6 @@ const Timer = () => {
     );
   });
 
-  timerComponents = [];
-
   return (
     <>
       {timerComponents.length ? 
