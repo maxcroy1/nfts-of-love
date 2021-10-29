@@ -33,6 +33,19 @@ const GlobalStyle = createGlobalStyle`
         color: white;
     }
 
+    input { 
+        font-size: 1.5rem;
+        color: black;
+        background-color: white;
+        border-bottom: solid white 1px;
+        text-align: center;
+        font-family: 'Tauri', sans-serif;
+
+        ::placeholder {
+        color: black;
+        }
+    }
+
     @media only screen and (min-width: 600px) {
         /* For tablets: */
         h2 {

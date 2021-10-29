@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 
-import { Minter } from "./minter";
+import { Minter } from "../../components";
 
 const TimerContainer = styled.div`
   font-family: "Tauri", sans-serif;
@@ -23,7 +23,7 @@ const TimerContainer = styled.div`
 `;
 
 const calculateTimeLeft = () => {
-  let difference = +new Date(`Fri Oct 29 2021 21:00:00 GMT-0400`) - +new Date();
+  let difference = +new Date(`Fri Oct 30 2021 21:00:00 GMT-0400`) - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
@@ -49,7 +49,7 @@ const Timer = () => {
     return () => clearTimeout(timer);
   });
 
-  const timerComponents = [];
+  let timerComponents = [];
 
   Object.keys(timeLeft).forEach((interval) => {
     if (!timeLeft[interval]) {
@@ -63,12 +63,19 @@ const Timer = () => {
     );
   });
 
+  timerComponents = [];
+
   return (
-    <TimerContainer>
-      {timerComponents.length ? timerComponents : <Minter />}
-      <br/>
-      Until Mint
-    </TimerContainer>
+    <>
+      {timerComponents.length ? 
+        <TimerContainer>
+          {timerComponents}
+          <br/>
+          Until Mint
+        </TimerContainer> 
+      : 
+      <Minter />}
+      </>
   );
 };
 
