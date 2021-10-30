@@ -23,7 +23,7 @@ const TimerContainer = styled.div`
 `;
 
 const calculateTimeLeft = () => {
-  let difference = +new Date(`Fri Oct 30 2021 21:00:00 GMT-0400`) - +new Date();
+  let difference = +new Date(`Fri Oct 30 2021 18:30:00 GMT-0400`) - +new Date();
   let timeLeft = {};
 
   if (difference > 0) {
