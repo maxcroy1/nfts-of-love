@@ -31,16 +31,14 @@ const Faq = () => {
         <br />
         <br />
         Once you've confirmed your funds have reached your wallet, all you have
-        to do is select your desired donation amount, press mint on our home
-        page, and then sign the transaction when prompted by MetaMask. Be sure
-        to look at your{" "}
+        to do is go to{" "}
         <a
-          href="https://www.investopedia.com/terms/g/gas-ethereum.asp#:~:text=On%20the%20Ethereum%20blockchain%2C%20gas,smart%20contracts%20and%20other%20transactions."
+          href="https://opensea.io/collection/nfts-of-love"
           target="_blank"
         >
-          gas fee
+          OpenSea
         </a>{" "}
-        before signing the transaction.
+        and make your bid!
       </p>
       <h3>How do I know my money isn't going into your pocket?</h3>
       <p>
@@ -48,7 +46,7 @@ const Faq = () => {
         keep an eye on our wallet to make sure money only comes in for mints,
         and leaves once for our donation. Here's a link to{" "}
         <a
-          href="https://etherscan.io/address/0x564252A235c9B04B4ac2Ab41C7a588a0264863d5"
+          href="https://etherscan.io/address/0x564252a235c9b04b4ac2ab41c7a588a0264863d5"
           target="_blank"
         >
           Etherscan
